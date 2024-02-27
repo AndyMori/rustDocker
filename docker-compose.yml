@@ -1,0 +1,9 @@
+services:
+  rust:
+    ports:
+      - "28015:28015/tcp"
+      - "28016:28016/tcp"
+      - "28015:28015/udp"
+      - "28016:28016/udp"
+    build:
+      dockerfile: rustCmd.Dockerfile
